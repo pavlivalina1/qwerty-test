@@ -295,17 +295,20 @@ ul li{
 }
 
 .button-container{
+  width: 100%;
   border-top: 1px solid #3B68DD;
   padding-top: 20px;
+  display: flex;
 }
 
-.button-container button{
+.button-container a{
+  text-decoration: none;
+  width: 100%;
   background-color: #3B68DD;
   color: #FFFFFF;
   border: none;
   text-align: center;
   padding: 10px 0 10px 0;
-  width: 100%;
   border-radius: 10px;
   font-size: 1.5rem;
   font-weight: 700;
